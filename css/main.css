@@ -272,6 +272,30 @@ h1 {
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
+/* Feedback section */
+
+.feedback {
+  background-color: #273c8b;
+  margin-top: 40px;
+  padding: 40px 0px;
+}
+
+.feedback__para {
+  color: #fff;
+  font-size: 1.0625rem;
+  line-height: 1.375rem;
+  font-weight: 700;
+}
+
+.feedback__by {
+  color: #fff;
+  font-size: 1.125rem;
+  line-height: 1.4rem;
+  font-weight: 300;
+
+  margin-top: 16px;
+}
+
 /* -- Tablet  device */
 @media screen and (min-width: 768px) {
   /* || Utilities */
@@ -389,5 +413,25 @@ h1 {
 
   .help-catgs__box {
     flex: 1 0 363px;
+  }
+
+  /* Feedback sec */
+  .feedback {
+    background-image: url("../images/feedback-back.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+  }
+
+  .feedback__para {
+    font-size: 2.3125rem;
+    line-height: 2.625rem;
+    max-width: 810px;
+  }
+
+  .feedback__by {
+    font-size: 38px;
+    line-height: 2.625rem;
+
+    max-width: 810px;
   }
 }
