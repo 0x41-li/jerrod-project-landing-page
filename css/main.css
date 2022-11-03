@@ -369,6 +369,29 @@ textarea.contact-us__input {
   font-weight: 400;
 }
 
+/* Footer */
+
+.footer {
+  background-color: #de2726;
+  padding: 40px 0px;
+}
+
+.footer__copyright {
+  color: #fff;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  margin: 10px 0px;
+
+  max-width: 500px;
+}
+
+.footer__facebook-link {
+  display: block;
+  margin-top: 20px;
+}
+
 /* -- Tablet  device */
 @media screen and (min-width: 768px) {
   /* || Utilities */
@@ -446,6 +469,7 @@ textarea.contact-us__input {
     line-height: 4.4375rem;
 
     width: 80vw;
+    max-width: 800px;
   }
 
   .hero__h2 {
@@ -529,5 +553,19 @@ textarea.contact-us__input {
   .contact-us__submit-btn {
     font-size: 1.8125rem;
     line-height: 2.125rem;
+  }
+
+  /* footer */
+
+  .footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer__left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
   }
 }
