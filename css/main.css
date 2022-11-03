@@ -256,7 +256,7 @@ h1 {
 .help-catgs__box {
   border: 2px solid #000;
   padding: 15px 10px;
-  flex: 0 0 363px;
+  flex: 0 1 363px;
 }
 
 .help-catgs__box__h2 {
