@@ -508,8 +508,13 @@ textarea.contact-us__input {
     justify-content: flex-start;
   }
 
+  .help-catgs__boxes {
+    justify-content: center;
+  }
+
   .help-catgs__box {
-    flex: 1 0 363px;
+    flex: 1 1 363px;
+    max-width: 363px;
   }
 
   /* Feedback sec */
